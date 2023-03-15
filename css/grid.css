@@ -46,6 +46,12 @@ body, p, h1, h2, h3, h4, h5 {
    text-align: center;
 }
 
+.box3 {
+   background-color: rgb(187, 187, 187);
+   color: white;
+   border-radius: 5px;
+}
+
 .bg {
    background-color: #DBDBDB;
    color: rgb(27, 27, 27);
