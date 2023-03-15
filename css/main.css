@@ -1,7 +1,32 @@
-
-#main-header {
+#main-logo {
     margin-top: 20px;
     margin-bottom: 20px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+}
+
+#main-nav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 60px;
+    position: relative;
+}
+
+#cart {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 60px;
+}
+
+#main-header {
+    top: 0;
+    height: 90px;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    position: sticky;
+    z-index: 999999 !important;
+    background-color: yellow;
 }
 #hero-con {
     background-color: #292929;
@@ -80,6 +105,46 @@
     background-color: black;
 }
 
+.aboutUs-image {
+    height: 291px;
+    margin-bottom: 20px;
+}
+
+#aboutUs {
+    font-size: 15px;
+    height: 238px;
+    margin-bottom: 20px;
+    
+}
+
+#reConnect {
+    font-size: 15px;
+    height: 143px;
+    margin-bottom: 20px;
+   
+}
+
+.aboutus-parag {
+
+    padding: 0;
+    background-color: grey;
+    color: white;
+    
+}
+
+#ourPartners-h2 {
+    height: 54px;
+}
+
+#ourPartners {
+    height: 593px;
+}
+
+.ourPartners-logo {
+    margin-top: 50px;
+    height: 130px;
+}
+
 @media screen and (min-width: 768px) {
     /* #main-logo {
         order: -1;
@@ -116,6 +181,28 @@
     #product2, #product3, #product4 {
         display: block;
     }
+    .aboutUs-image {
+        height: 291px;
+    }
+    .aboutus-parag {
+        font-size: 10px;
+        background-color: grey;
+        color: white;
+        
+    }
+
+    #aboutUs {
+        margin: auto;
+    }
+    
+    #reConnect {
+        margin: auto;
+    }
+
+    #ourPartners {
+        height: 564px;
+    }
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -141,5 +228,29 @@
         margin-bottom: 20px;
     }
 
+    .aboutUs-image {
+        height: 331px;
+    }
+
+    .aboutus-parag {
+        font-size: 12px;
+        padding: 0;
+        background-color: grey;
+        color: white;
+    }
+
+    #aboutUs {
+        margin: auto;
+    }
+    
+    #reConnect {
+        margin: auto;
+    }
+
+    #ourPartners {
+        height: 736px;
+    }
+
+    
 }
 
