@@ -194,75 +194,49 @@
     height: 50px;
     grid-row: 3/3;
     border-radius: 50%;
+    color: black;
     background-color: white;
 }
 
 #testimonialUser {
+    color: black;
     height: 50px;
     grid-row: 3/3;
     background-color: white;
 }
-/* .testimonials {
-    border-radius: 50px;
-    background-color: #535353;
+
+#footer-con {
+    background-color: black;
+    height: 900px;
 }
 
-#testimonial1 {
-    width: 245px;
-    height: 200px;
-    grid-column: 1/4;  
-    grid-row: 2/3;
-    margin-bottom: 120px;
+#footer-logo {
+    margin-top: 30px;
+    height: 50px;
 }
 
-#testimonial2 {
-    width: 245px;
-    height: 200px;
-    grid-column: 4/6;
-     grid-row: 2/3;
-    margin-bottom: 120px;
+#email {
+    margin-top: 10px;
 }
 
-.testimonial1 {
-    background-color: rgb(88, 88, 88);
-    margin-top: 145px;
-    width: 220px;
-    height: 180px;
+#email-submit {
+    margin-top: 10px;
 }
 
-.testimonial2 {
-    background-color: rgb(88, 88, 88);
-    margin-top: 145px;
-    width: 220px;
-    height: 180px;
+#quicklinks, #support {
+    margin-top: 30px;
+    height: 132px;
 }
 
-.testimonialCaption {
-    margin-top: 0;
-    width: 300px;
-    height: 300px;
+#companyInfo {
+    margin-top: 30px;
+    height: 237px;
 }
 
-.testimonialSayings {
-    font-weight: 300;
+#socialMediaIcons {
+    margin-top: 30px;
+    height: 61px;
 }
-
-#testimonialH3 {
-    margin-top: 5px;
-    margin-bottom: 20px;
-    font-size: 50px;
-    font-weight: 500;
-    text-align: left;
-}
-
-#testimonialH4 {
-    color: white;
-    margin-top: 0;
-    
-    font-size: 20px;
-    font-weight: 300;
-    text-align: left;
-} */
 
 @media screen and (min-width: 768px) {
     /* #main-logo {
@@ -334,15 +308,39 @@
 
     #testimonialPic {
         height: 43px;
+        color: black;
     }
 
     #testimonialUser {
         height: 43px;
+        color: black;
     }
 
     #testimonialContent {
         margin-top: 145px;
     }
+
+    #footer-con {
+        background-color: black;
+        height: 240px;
+    }
+
+    #email-submit {
+        height: 24px;
+    }
+
+    #quicklinks {
+        grid-row: 1/3;
+    }
+
+    #support {
+        grid-row: 1/3;
+    }
+
+    #companyInfo {
+        height: 81px;
+    }
+
 
 }
 
@@ -416,6 +414,11 @@
 
     #testimonialUser {
         height: 70px;
+    }
+
+    #footer-con {
+        background-color: black;
+        height: 276px;
     }
 
 

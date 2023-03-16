@@ -31,6 +31,8 @@ body, p, h1, h2, h3, h4, h5 {
 }
 
 .box {
+   display: flex;
+   justify-content: center;
    background-color: #292929;;
    color: white;
    border-radius: 5px;
